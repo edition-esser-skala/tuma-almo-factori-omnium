@@ -2,11 +2,14 @@
 
 #(define option-movement-title-format "title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
 tempoAlmo = \tempoMarkup "Andante"
+tempoCuius = \tempoMarkup "[Larghetto]"
+tempoQui = \tempoMarkup "Largo"
+tempoIn = \tempoMarkup "[Vivace]"
 
 
 \include "notes/cnto.ly"

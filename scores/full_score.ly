@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "Almo factori omnium"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -81,7 +81,7 @@
         \new FiguredBass { \AlmoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
